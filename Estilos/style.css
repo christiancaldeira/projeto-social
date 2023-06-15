@@ -37,3 +37,54 @@ main {
 
 
 }
+
+#tela {
+    position: relative;
+    top: 58px;
+    left: 16px;
+    height: 337px;
+    width: 191px;
+}
+
+
+#social {
+    position: absolute;
+}
+
+
+.face {
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+
+
+    position: relative;
+    top: 0%;
+    left: 90%;   
+}
+.insta {
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+
+    position: relative;
+    top: 15%;
+    left: 90%;
+
+    position: absolute;
+
+
+    
+}
+
+.twit {
+    height: 60px;
+    width: 60px;
+    padding: 20px;
+
+    position: relative;
+    top: 30%;
+    left: 90%;
+
+    position: absolute;
+}
