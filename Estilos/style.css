@@ -55,7 +55,12 @@ section#social img {
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 6px black;
+    box-sizing: border-box;
+}
 
-    
-
+#social img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.631);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.567);
+    transform: scale(1.07);
+    transition: transform 0.5s;
 }
