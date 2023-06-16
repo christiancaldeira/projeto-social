@@ -46,45 +46,16 @@ main {
     width: 191px;
 }
 
-
 #social {
-    position: absolute;
+    text-align: right;
 }
 
-
-.face {
-    height: 60px;
-    width: 60px;
-    padding: 20px;
-
-
-    position: relative;
-    top: 0%;
-    left: 90%;   
-}
-.insta {
-    height: 60px;
-    width: 60px;
-    padding: 20px;
-
-    position: relative;
-    top: 15%;
-    left: 90%;
-
-    position: absolute;
-
+section#social img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px black;
 
     
-}
 
-.twit {
-    height: 60px;
-    width: 60px;
-    padding: 20px;
-
-    position: relative;
-    top: 30%;
-    left: 90%;
-
-    position: absolute;
 }
